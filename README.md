@@ -60,8 +60,7 @@ We used UTKFace dataset in this work. The UTKFace dataset is a comprehensive and
 
 #### Data Composition
 - Images: The dataset includes a large variety of face images taken in uncontrolled conditions, capturing a wide range of ages, genders, and ethnicities.
-- 
-- Annotations: Each image is annotated with three types of information:
+- Annotations: Each image is titled with four types of information seperated with **_**: Age_Gender_Ethnicity_ID.jpg
   
   Age: The age of the person in the image.
 
@@ -69,6 +68,10 @@ We used UTKFace dataset in this work. The UTKFace dataset is a comprehensive and
 
   Ethnicity: The ethnicity of the person, categorized into five groups: White, Black, Asian, Indian, and Others.
 
+  ID: The Id is a unique identifier combined with the above three information.
+  
+
+The UTKFace dataset is publicly available for academic and research purposes. It can be accessed and downloaded from various resources like [Kaggle](https://www.kaggle.com/datasets/jangedoo/utkface-new).
 
 ### 4.2. Model
 In this subsection, the architecture and specifics of the deep learning model employed for the segmentation task are presented. It describes the model's layers, components, libraries, and any modifications made to it.
