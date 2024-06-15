@@ -49,6 +49,7 @@ We used ResNet50 which is a pretrained deep CNN model to solve this problem. The
   <img  src='method3.jpg' >
   
 </div>
+
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
 
@@ -62,11 +63,11 @@ We used UTKFace dataset in this work. The UTKFace dataset is a comprehensive and
 - 
 - Annotations: Each image is annotated with three types of information:
   
--- Age: The age of the person in the image.
+  Age: The age of the person in the image.
 
--- Gender: The gender of the person, labeled as male or female.
+  Gender: The gender of the person, labeled as male or female.
 
--- Ethnicity: The ethnicity of the person, categorized into five groups: White, Black, Asian, Indian, and Others.
+  Ethnicity: The ethnicity of the person, categorized into five groups: White, Black, Asian, Indian, and Others.
 
 
 ### 4.2. Model
