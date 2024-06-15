@@ -49,3 +49,34 @@ We used ResNet50 which is a pretrained deep CNN model to solve this problem. The
   <img  src='method3.jpg' >
   
 </div>
+## 4. Implementation
+This section delves into the practical aspects of the project's implementation.
+
+### 4.1. Dataset
+Under this subsection, you'll find information about the dataset used for the Age Estimation With Face Image task. 
+
+We used UTKFace dataset in this work. The UTKFace dataset is a comprehensive and widely used resource for facial recognition and demographic analysis. This dataset is primarily designed for tasks related to age, gender, and race detection in facial images.It contains over 20,000 images of faces, with annotations for age, gender, and ethnicity.
+
+#### Data Composition
+- Images: The dataset includes a large variety of face images taken in uncontrolled conditions, capturing a wide range of ages, genders, and ethnicities.
+- 
+- Annotations: Each image is annotated with three types of information:
+  
+-- Age: The age of the person in the image.
+
+-- Gender: The gender of the person, labeled as male or female.
+
+-- Ethnicity: The ethnicity of the person, categorized into five groups: White, Black, Asian, Indian, and Others.
+
+
+### 4.2. Model
+In this subsection, the architecture and specifics of the deep learning model employed for the segmentation task are presented. It describes the model's layers, components, libraries, and any modifications made to it.
+
+### 4.3. Configurations
+This part outlines the configuration settings used for training and evaluation. It includes information on hyperparameters, optimization algorithms, loss function, metric, and any other settings that are crucial to the model's performance.
+
+### 4.4. Train
+Here, you'll find instructions and code related to the training of the segmentation model. This section covers the process of training the model on the provided dataset.
+
+### 4.5. Evaluate
+In the evaluation section, the methods and metrics used to assess the model's performance are detailed. It explains how the model's segmentation results are quantified and provides insights into the model's effectiveness.
