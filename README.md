@@ -46,6 +46,6 @@ Convolutional Neural Network (CNN) is one of the best methods for extracting fea
 
 We used ResNet50 which is a pretrained deep CNN model to solve this problem. The figure below shows the architechture of the method I used.
 <div align=center padding-left=50px>
-  <img  src='method.jpg' >
+  <img  src='method2.jpg' >
   
 </div>
