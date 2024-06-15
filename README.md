@@ -60,7 +60,7 @@ We used UTKFace dataset in this work. The UTKFace dataset is a comprehensive and
 
 #### Data Composition
 - Images: The dataset includes a large variety of face images taken in uncontrolled conditions, capturing a wide range of ages, genders, and ethnicities.
-- Annotations: Each image is titled with four types of information seperated with **_**: Age_Gender_Ethnicity_ID.jpg
+- Annotations: Each image is titled with four types of information seperated with **_** : Age_Gender_Ethnicity_ID.jpg
   
   Age: The age of the person in the image.
 
