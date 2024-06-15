@@ -11,13 +11,13 @@ Age estimation is one of the tasks of facial image classification. It can be def
 
 The goal is to develop a deep learning model that can accurately estimate the age of a person from a given facial image. This involves extracting relevant features from the image and mapping them to a corresponding age. As shown in the above image, the model should assign the age for every facial image.
 #### 1.1 Challenges
-Variability in Faces: Human faces vary widely in terms of shape, size, skin color, and facial features. Additionally, external factors such as lighting, pose, and expression can further complicate the task.
+- Variability in Faces: Human faces vary widely in terms of shape, size, skin color, and facial features. Additionally, external factors such as lighting, pose, and expression can further complicate the task.
 
-Aging Process: The aging process is complex and non-linear. Different individuals age differently based on genetic factors, lifestyle, and environmental influences.
+- Aging Process: The aging process is complex and non-linear. Different individuals age differently based on genetic factors, lifestyle, and environmental influences.
 
-Data Availability: Collecting a large and diverse dataset with accurately labeled ages can be challenging.
+- Data Availability: Collecting a large and diverse dataset with accurately labeled ages can be challenging.
 
-Feature Extraction: Identifying which features are most indicative of age and how to extract them effectively from images is non-trivial.
+- Feature Extraction: Identifying which features are most indicative of age and how to extract them effectively from images is non-trivial.
 
 ## 2. Related Works
 A couple of recent works on age estimation using facial images.
