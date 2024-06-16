@@ -87,7 +87,6 @@ In this subsection, the architecture and specifics of the deep learning model em
 This is the custom model architecture:
 
   class AgeEstimationModel(nn.Module):
-  
     def __init__(self):
       super().__init__()
       self.model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V2)
@@ -103,11 +102,17 @@ A pre-trained CNN, ResNet50, is used which followed by a fully connected layer w
 ### 4.3. Configurations
 This part outlines the configuration settings used for training and evaluation. It includes information on hyperparameters, optimization algorithms, loss function, metric, and any other settings that are crucial to the model's performance.
 
-**Loss:** torch.nn.L1Loss()
+**Loss** 
 
-**Optimizer =** torch.optim.SGD(model.parameters(), lr=0.02, momentum=0.9, weight_decay=1e-4)
+torch.nn.L1Loss()
 
-**Metric =** torchmetrics.MeanAbsoluteError().to(device)
+**Optimizer**
+
+torch.optim.SGD(model.parameters(), lr=0.02, momentum=0.9, weight_decay=1e-4)
+
+**Metric**
+
+torchmetrics.MeanAbsoluteError().to(device)
 
 device = 'cuda' if torch.cuda.is_available()  else 'cpu'
 
