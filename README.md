@@ -130,10 +130,10 @@ I made a grid of LR and WD like below
 
 **weight decay:** 1e-5, 1e-4, 0
 
-The best train_loss= 5.48 and MAE= 5.48 year for above grid obtained with LR= 0.001, WD= 1e-4, and momentum=0.9.
+The best train_loss= 5.48 and MAE= 5.48 years for above grid obtained with LR= 0.001, WD= 1e-4, and momentum=0.9.
 
 ### 4.5. Evaluate
 
 
-The best validation loss= 5.423 and MAE= 5.418 year obtained with LR= 0.001, WD= 1e-4, and momentum=0.9.
+The best validation loss= 5.423 and MAE= 5.418 years obtained with LR= 0.001, WD= 1e-4, and momentum=0.9.
 
