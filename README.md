@@ -84,8 +84,34 @@ The UTKFace dataset is publicly available for academic and research purposes. It
 ### 4.2. Model
 In this subsection, the architecture and specifics of the deep learning model employed for the segmentation task are presented. It describes the model's layers, components, libraries, and any modifications made to it.
 
+This is the custom model architecture:
+
+  class AgeEstimationModel(nn.Module):
+  
+    def __init__(self):
+      super().__init__()
+      self.model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V2)
+      self.model.fc  = nn.Linear(in_features=2048, out_features=1, bias=True)
+
+    def forward(self, x):
+      output = self.model(x)
+      return output
+
+A pre-trained CNN, ResNet50, is used which followed by a fully connected layer with 1 output.
+
+
 ### 4.3. Configurations
 This part outlines the configuration settings used for training and evaluation. It includes information on hyperparameters, optimization algorithms, loss function, metric, and any other settings that are crucial to the model's performance.
+
+**Loss:** torch.nn.L1Loss()
+
+**Optimizer =** torch.optim.SGD(model.parameters(), lr=0.02, momentum=0.9, weight_decay=1e-4)
+
+**Metric =** torchmetrics.MeanAbsoluteError().to(device)
+
+device = 'cuda' if torch.cuda.is_available()  else 'cpu'
+
+model = model.to(device)
 
 ### 4.4. Train
 Here, you'll find instructions and code related to the training of the segmentation model. This section covers the process of training the model on the provided dataset.
