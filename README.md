@@ -49,10 +49,14 @@ We used ResNet50 which is a pretrained deep CNN model to solve this problem. The
   <img  src='method3.jpg' >
 </div>
 
-**B:** Bach size \n
+**B:** Bach size 
+
 **Ci:** Chanel i
+
 **H*W:** image size, height* weight
+
 **Co:** output vector of ResNet50= 2048
+
 
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
