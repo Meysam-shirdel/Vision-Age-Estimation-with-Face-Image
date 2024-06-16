@@ -122,5 +122,16 @@ model = model.to(device)
 ### 4.4. Train
 Here, you'll find instructions and code related to the training of the segmentation model. This section covers the process of training the model on the provided dataset.
 
+The training process consists of Finding Hyper-parameters and Main loop section. in Finding Hyper-parameters section, we used different scenarios to obtain best hyper-parameters like learning rate, weight decay, and, momentum. The result of this section is used to train the model in Main Loop.
+
+I made a grid of LR and WD like below
+
+learning rate : 0.005, 0.003, 0.001, 0.0007
+weight decay: 1e-5, 1e-4, 0
+The best train_loss= 5.48 and MAE= 5.48 for above grid obtained with LR= 0.001, WD= 1e-4.
+
 ### 4.5. Evaluate
 In the evaluation section, the methods and metrics used to assess the model's performance are detailed. It explains how the model's segmentation results are quantified and provides insights into the model's effectiveness.
+
+The best validation loss= 5.423 and MAE= 5.418 obtained with LR= 0.001, WD= 1e-4.
+
