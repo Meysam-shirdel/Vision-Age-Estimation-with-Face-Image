@@ -47,8 +47,12 @@ Convolutional Neural Network (CNN) is one of the best methods for extracting fea
 We used ResNet50 which is a pretrained deep CNN model to solve this problem. The figure below shows the architechture of the method I used.
 <div align=center padding-left=50px>
   <img  src='method3.jpg' >
-  
 </div>
+
+**B:** Bach size \n
+**Ci:** Chanel i
+**H*W:** image size, height* weight
+**Co:** output vector of ResNet50= 2048
 
 ## 4. Implementation
 This section delves into the practical aspects of the project's implementation.
