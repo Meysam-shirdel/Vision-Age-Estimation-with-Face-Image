@@ -13,7 +13,7 @@ The goal is to develop a deep learning model that can accurately estimate the ag
 #### 1.1 Challenges
 - Variability in Faces: Human faces vary widely in terms of shape, size, skin color, and facial features. Additionally, external factors such as lighting, pose, and expression can further complicate the task. 
 
-- Aging Process: The aging process is complex and non-linear. Different individuals age differently based on genetic factors, lifestyle, and environmental influences.
+- Aging Process: The aging process is complex and non-linear. Different individuals  age differently based on genetic factors, lifestyle, and environmental influences.
 
 - Data Availability: Collecting a large and diverse dataset with accurately labeled ages can be challenging.
 
