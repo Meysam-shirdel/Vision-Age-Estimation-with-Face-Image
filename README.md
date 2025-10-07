@@ -9,7 +9,7 @@
 ## 1. Problem Statement
 Age estimation is one of the tasks of facial image classification. It can be defined as determination of a person's age or age group from facial images. Facial aging adversely impacts performance of face recognition and face verification and authentication using facial features. This stochastic personalized inevitable process poses dynamic theoretical and practical challenge to the computer vision and pattern recognition community. This task has numerous applications in various fields such as security, health monitoring, customer analytics, and social media.
 
-The goal is to develop a deep learning model that can accurately estimate the age of a person from a given facial image. This involves extracting relevant features from the image and mapping them to a corresponding age. As shown in the above image, the model should assign the age for every facial image. 
+The goal is to develop a deep learning model that can accurately estimate the age of a person from a given facial image. This involves extracting relevant features from the image and mapping them to a corresponding age. As shown in the above image, the model should assign the age for every facial image.  
 #### 1.1 Challenges
 - Variability in Faces: Human faces vary widely in terms of shape, size, skin color, and facial features. Additionally, external factors such as lighting, pose, and expression can further complicate the task. 
 
