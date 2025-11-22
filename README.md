@@ -21,7 +21,7 @@ The goal is to develop a deep learning model that can accurately estimate the ag
 
 ## 2. Related Works
 A couple of recent works on age estimation using facial images.
-
+ 
 | Date       | Title                                                                                     | Description                                                                                                                                               | Links                                                                                                                                                                         |
 |------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2015       | DEX: Deep EXpectation of Apparent Age from a Single Image                                  | Uses VGG-16 model pre-trained on ImageNet and fine-tuned on the IMDB-WIKI dataset for age estimation.                                                     | [Paper](https://arxiv.org/abs/1507.00724) \| [GitHub](https://github.com/yu4u/age-gender-estimation)                                                                          |
